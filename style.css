@@ -1,0 +1,47 @@
+﻿
+	body{
+		margin:0 auto;
+		padding:0 auto;
+		<!-- background:#FDF5E6 url(img/sd13.jpg) no-repeat center; -->
+		color:#ccc;
+	}
+	p{
+		text-align:center;
+	}
+	.box{ animation: change 1s  ease-in  infinite ; font-size: 40px; color:#f09; font-weight: bold}
+        @keyframes change {
+            0%{ text-shadow: 0 0 4px #f00}
+            50%{ text-shadow: 0 0 40px #f00}
+            100%{ text-shadow: 0 0 4px #f00}
+        }
+	#font1,#font2{
+		font-size:60px;
+		font-family:宋体;
+	}	
+	#font1{
+		color:yellow;
+	}
+	#font2{
+		color:fuchsia;
+	}
+	#div1{
+		background:#FDF5E6 url(../img/sd8.jpg) no-repeat center; 
+		width:869px;
+		height:603px;
+		float:left;
+	}
+	#div_left{
+		width:210px;
+		height:603px;
+		float:left;
+	}
+	#div_right{
+		width:210px;
+		height:603px;
+		float:left;
+		margin-top:-1px;
+	}
+	img{
+		width:210px;
+		height:603px;
+	}
